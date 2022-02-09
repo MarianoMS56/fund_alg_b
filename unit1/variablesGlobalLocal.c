@@ -15,8 +15,8 @@ int temperatura= 256;
 int main(){
     temperatura = 24;
     int hours = 12;
-    printf ("hours: %i\n", hours);
-    hours = hours + 2;
+    printf ("hours: %i\n", hours);     /////Lo rojor es un texto previo al dato que queremos ver//// 
+    hours = hours + 2;      /////Lo azul es un 
     printf("hours: %i\n", hours);
     printf("Hello Data B %s\n", name);
     return 0;
