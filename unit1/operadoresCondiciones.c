@@ -15,12 +15,12 @@ int main(int argc, char** argv){
     int inputTemp = atoi(argv[1]);
     int inputMoney = atoi(argv[2]);
     char inputName = argv [3][0];
-    int temp_condition = ( inputTemp == frio);
-    int temp_condition2 = ( inputTemp == caliente);
-    int temp_condition3 = ( inputTemp >= caliente);
-    int canRobotMove = ( inputTemp >= caliente);
-    int hasUserMoney = ( inputMoney == sofa );
-    int isUserMale = ( inputName != 'F')
+    bool temp_condition = ( inputTemp == frio);
+    bool temp_condition2 = ( inputTemp == caliente);
+    bool temp_condition3 = ( inputTemp >= caliente);
+    bool canRobotMove = ( inputTemp >= caliente);
+    bool hasUserMoney = ( inputMoney == sofa );
+    bool isUserMale = ( inputName != 'F');
 
     if(canRobotMove){
         //Robot.move(x_coord, y_coord);
